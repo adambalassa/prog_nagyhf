@@ -1,0 +1,7 @@
+g++ -Wall -pedantic -std=c++11 -c main.cpp -o objects/main.o
+g++ -Wall -pedantic -std=c++11 -c interpreter.cpp -o objects/interpreter.o
+g++ -Wall -pedantic -std=c++11 -c operation.cpp -o objects/operation.o
+g++ -Wall -pedantic -std=c++11 -c operator.cpp -o objects/operator.o
+g++ -Wall -pedantic -std=c++11 -c simplifier.cpp -o objects/simplify.o
+g++ -Wall -pedantic -std=c++11 -c commandreader.cpp -o objects/command.o
+g++ objects/main.o objects/interpreter.o objects/operation.o objects/operator.o objects/command.o objects/simplify.o -o calculator

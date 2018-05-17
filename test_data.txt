@@ -1,0 +1,15 @@
+count 1: 2 * x - cos(pi / sin(pi / (2 * x))) + log(3, 9) * sqrt(pow(x, 2)) / tan(pi / 4)
+this is not a valid line
+invalid: 2
+write
+count: invalid
+write
+integrate 0 1: pow(x, 2)
+write: sin(cos(x + 3))
+derivative: log(3, x) * 12
+derivate pi
+count 0: 2 * pow(x, -1)
+write
+derivative
+write
+exit
